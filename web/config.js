@@ -6,25 +6,13 @@
 */
 export const LOADSCREEN_TIPS = [
   {
-    title: "Bold Tip",
-    content: "**This is just a bold tip. WOW its all bold!**"
+    title: "Sov Nation",
+    content: "Welcome to **Sov Nation**"
   },
   {
-    title: "Italics Tip",
-    content: "*Wew, now its all in italics*"
+    title: "Discord",
+    content: "Join our [discord](https://discord.gg/AuFuqKf) and be part of the community!"
   },
-  {
-    title: "Bold Italics",
-    content: "***Lets now combine the best of both worlds! Lets use bold italics***"
-  },
-  {
-    title: "Nice Tip 4",
-    content: "Find our discord here"
-  },
-  {
-    title: 'Markdown Render',
-    content: '**This is bold**. But this is not.  [This is a link!](https://github.com/project-error/pe-basicloading)'
-  }
 ];
 
 // How long a tip is on screen before we automatically
