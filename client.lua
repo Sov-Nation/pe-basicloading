@@ -13,3 +13,5 @@ if not disableManualShutdown then
 end
 
 exports('shutdown', shutdownHandler)
+
+RegisterCommand('shutdown', shutdownHandler)
