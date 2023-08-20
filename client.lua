@@ -5,7 +5,7 @@ local function shutdownHandler()
     if firstSpawn then return end
     firstSpawn = true
     SendLoadingScreenMessage(json.encode({fullyLoaded = true}))
-    ShutdownLoadingScreenNui(true)
+    ShutdownLoadingScreenNui()
 end
 
 if not disableManualShutdown then
